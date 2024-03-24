@@ -257,3 +257,11 @@ def Review(request, p_id):
         insertImage.save()
     return redirect(reverse('base'))
       
+def placeorder(request):
+    
+
+
+
+
+
+

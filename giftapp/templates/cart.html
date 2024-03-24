@@ -30,6 +30,7 @@
     <!-- Modernizer JS -->
     <script src="{% static "js/vendor/modernizr-2.8.3.min.js" %}"></script>
   </head>
+   
 
   <style>
     .hidden {
@@ -142,8 +143,15 @@
                 <div class="cart-action col-lg-4 col-md-6 col-12 mb-30">
                   <a href="#" class="button">Continiue Shopping</a>
                   <button class="button">update cart</button>
+                  <a href="{% url 'custombox' %}" class="button">Customization</a>
                 </div>
-
+               <!-- custom box form -->
+               <!-- Customization Button Section -->
+       <!--  <div class="cart-customization-section mb-30">
+          <h4>Customize Your Hamper</h4>
+          <p>Add special wrapping, ribbons, and more!</p>
+          <a href="{% url 'custombox' %}" class="button">Customize Now</a>
+        </div>   -->
                 <!-- Cart Cuppon -->
                 <div class="cart-cuppon col-lg-4 col-md-6 col-12 mb-30">
                   <h4 class="title">Discount Code</h4>

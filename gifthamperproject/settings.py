@@ -31,6 +31,7 @@ DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
+    "jazzmin",
     # 'unfold',
     'django.contrib.admin',
     'django.contrib.auth',
